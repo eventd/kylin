@@ -378,7 +378,7 @@ public class ITKylinQueryTest extends KylinTestBase {
         printInfo("---------- verify expect version: " + expectVersion);
 
         String queryName = "QueryKylinVersion";
-        String sql = "SELECT VERSION() AS version;";
+        String sql = "SELECT VERSION() AS version";
 
         // execute Kylin
         printInfo("Query Result from Kylin - " + queryName);

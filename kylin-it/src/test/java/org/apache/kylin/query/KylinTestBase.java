@@ -373,7 +373,7 @@ public class KylinTestBase {
             File expectResultFile = new File(sqlFile.getParent(), sqlFile.getName() + ".expected.xml");
             IDataSet expect = new FlatXmlDataSetBuilder().build(expectResultFile);
             // Get expected table named "expect". FIXME Only support default table name
-            ITable expectTable = expect.getTable("table");   
+            ITable expectTable = expect.getTable("expect");   
 
             // execute Kylin
             printInfo("Query Result from Kylin - " + queryName + "  (" + queryFolder + ")");

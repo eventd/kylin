@@ -18,4 +18,4 @@
 
 -- This is a sample case
 
-SELECT 'Hello world' AS message;
+SELECT 'Hello world' AS message
